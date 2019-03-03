@@ -1,13 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Karthik Menon">
+	<meta name="description" content="Welcome to Karthik Menon's Web Resume, he is currently pursuing B.tech(Hons) in Information Technology from Rajagiri School of Engineering & Technology. Karthik's smart;he knew you would be reading the source. So he put a description here. Be like Karthik. ">
 	<!-- title icon -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>Karthik Menon</title>
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 	<!-- For contact me -->
+	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
@@ -19,17 +22,24 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<!-- main css file -->
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- resonsive -->
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<!-- timeline -->
 	<link rel="stylesheet" href="style.css">
 	<!-- AOS -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<!-- Javascript and jquery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<!-- Navigation bar -->
+	<script type="text/javascript">
+		document.addEventListener('contextmenu', event => event.preventDefault());
+	</script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	
+	<!-- navbar -->
   	<nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd; padding-left:30px;">
 	    	<a class="navbar-brand mb-0 h1" href="#">
 	    		<img src="1.png" width="40" height="40" alt="">
@@ -63,16 +73,14 @@
 	<!-- Home -->
 	<div data-aos="fade-right">
 		<section id="home">
-			<div id="portrait">
-				
+			<div id="portrait">	
 				<div class="welcome col-lg-4 col-m-6 col-s-12 ">
 					<hr style="height:10px;border:none;color:#333;background-color:#333;">
 					<hr style="height:10px;border:none;color:#333;background-color:#333;">
 					<h1 class="display-3" id="home">Say Hi to the</h1>
-						<h1 class="display-3"> <span class="text-danger">right</span> side of
-						</h1>
-						<h1 class="display-3">my brain..</h1>
-						<hr style="height:10px;border:none;color:#333;background-color:#333;">
+					<h1 class="display-3"> <span class="text-danger">right</span> side of</h1>
+					<h1 class="display-3">my brain..</h1>
+					<hr style="height:10px;border:none;color:#333;background-color:#333;">
 					<hr style="height:10px;border:none;color:#333;background-color:#333;">
 				</div>
 			</div>
@@ -82,12 +90,10 @@
 	<div class="container text-center">
 		<!-- About -->
 		<section id="about">
-		<div >
 			<div  class="abt" data-aos="fade-up" data-aos-anchor-placement="center-center">
 				<h1 class="display-1 text-center" >About</h1><hr>
 				<p >An effective taurean pursuing his B.tech(Hons) in Information Technology at Rajagiri School of Engineering & Technology, Kakkanad. While the right side of my brain focuses on designing, web designing and A/V editing, the left side copes up with interests in Machine Learning. I started digital imaging back in school for our tech club nCrypt and slowly stepped into Web Designing and A/V editing. Basically, I started from watermarking images from photoshop and now designing a portfolio webpage. So, I am basically Han Solo minus the looks.
-			</div>
-		</div><br>
+			</div><br>
 		</section>
 		<hr>
 		<!-- SKILLS -->
@@ -143,7 +149,7 @@
 		</section>
 		<!-- Education -->
 		<section id="education">
-			<div class="edc">
+			<div  class="edc">
 				<h1 class="display-1 text-center " data-aos="fade-up" data-aos-anchor-placement="center-center">Education</h1><hr>
 				<!-- timeline -->
 				<ul class="timeline">
@@ -158,7 +164,6 @@
 					      <div class="desc">I descend into the world of high possibilities. </div>
 					    </div>
 					  </li>
-
 					  <!-- Item 2 -->
 					  <li>
 					    <div class="direction-l" data-aos="fade-right">
@@ -198,7 +203,7 @@
 		<!-- Projects -->
 		<section id="projects">
 			<div class="prjct">
-				<h1 class="display-1 text-center " data-aos="fade-up" data-aos-anchor-placement="center-center">Projects</h1><hr>
+				<h1 class="display-1 text-center" data-aos="fade-up" data-aos-anchor-placement="center-center">Projects</h1><hr>
 				<div class="card" data-aos="fade-right"  data-aos-easing="ease-in-sine">
 					  	<div class="card-header">
 					   	 	R2G
@@ -233,46 +238,46 @@
 		</section>
 		<!-- Contact -->
 		<section id="contact">
-			<div class="cntct">
-					<h1 class="display-1 text-center " data-aos="fade-up" data-aos-anchor-placement="center-center">Contact Me</h1><hr>
-					<div class="bg-contact100">
-						<div class="container-contact100">
-							<div class="wrap-contact100">
-								<div class="contact100-pic js-tilt" data-tilt>
-									<img src="images/img-01.png" alt="IMG">
-								</div>
+			<div class="cntct" >
+				<h1 class="display-1 text-center " data-aos="fade-up" data-aos-anchor-placement="center-center">Contact Me</h1><hr>
+				<div class="bg-contact100">
+					<div class="container-contact100">
+						<div class="wrap-contact100">
+							<div class="contact100-pic js-tilt" data-tilt>
+								<img src="images/img-01.png" alt="IMG">
+							</div>
 
-								<form class="contact100-form validate-form">
-									<span class="contact100-form-title">
-										Get in touch
-									</span>
+							<form class="contact100-form validate-form">
+								<span class="contact100-form-title">
+									Get in touch
+								</span>
 
-									<div class="wrap-input100 validate-input" data-validate = "Name is required">
-									<input class="input100" type="text" name="name" placeholder="Name">
-									<span class="focus-input100"></span>
-									<span class="symbol-input100">
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</span>
-								</div>
+								<div class="wrap-input100 validate-input" data-validate = "Name is required">
+								<input class="input100" type="text" name="name" placeholder="Name">
+								<span class="focus-input100"></span>
+								<span class="symbol-input100">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</span>
+							</div>
 
-								<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-									<input class="input100" type="text" name="email" placeholder="Email">
-									<span class="focus-input100"></span>
-									<span class="symbol-input100">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</span>
-								</div>
+							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+								<input class="input100" type="text" name="email" placeholder="Email">
+								<span class="focus-input100"></span>
+								<span class="symbol-input100">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</span>
+							</div>
 
-								<div class="wrap-input100 validate-input" data-validate = "Message is required">
-									<textarea class="input100" name="message" placeholder="Message"></textarea>
-									<span class="focus-input100"></span>
-								</div>
+							<div class="wrap-input100 validate-input" data-validate = "Message is required">
+								<textarea class="input100" name="message" placeholder="Message"></textarea>
+								<span class="focus-input100"></span>
+							</div>
 
-								<div class="container-contact100-form-btn">
-									<button class="contact100-form-btn">
-										Send
-									</button>
-								</div>
+							<div class="container-contact100-form-btn">
+								<button class="contact100-form-btn">
+									Send
+								</button>
+							</div>
 							</form>
 						</div>
 					</div>
