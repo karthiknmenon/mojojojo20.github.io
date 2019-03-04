@@ -9,15 +9,6 @@
 	<!-- title icon -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>Karthik Menon</title>
-	<!-- For contact me -->
-	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- bootstrap file -->
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<!-- main css file -->
@@ -64,9 +55,14 @@
 	      		<li class="nav-item">
 	        		<a class="nav-link" href="#projects">Projects</a>
 	      		</li>
-	      		<li class="nav-item">
+	      		<li class="nav-item ">
 	        		<a class="nav-link" href="#contact">Contact Me</a>
 	      		</li>
+	 		</ul>
+	 		<ul class="navbar-nav ml-auto">
+	 			<li class="nav-item">
+	 				<a class="nav-link" href="blog/blog.html">ln(mojojojo20)</a>
+	 			</li>
 	 		</ul>
 	  	</div>
 	</nav>
@@ -238,50 +234,36 @@
 		</section>
 		<!-- Contact -->
 		<section id="contact">
-			<div class="cntct" >
-				<h1 class="display-1 text-center " data-aos="fade-up" data-aos-anchor-placement="center-center">Contact Me</h1><hr>
-				<div class="bg-contact100">
-					<div class="container-contact100">
-						<div class="wrap-contact100">
-							<div class="contact100-pic js-tilt" data-tilt>
-								<img src="images/img-01.png" alt="IMG">
-							</div>
-
-							<form class="contact100-form validate-form">
-								<span class="contact100-form-title">
-									Get in touch
-								</span>
-
-								<div class="wrap-input100 validate-input" data-validate = "Name is required">
-								<input class="input100" type="text" name="name" placeholder="Name">
-								<span class="focus-input100"></span>
-								<span class="symbol-input100">
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</span>
-							</div>
-
-							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-								<input class="input100" type="text" name="email" placeholder="Email">
-								<span class="focus-input100"></span>
-								<span class="symbol-input100">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</span>
-							</div>
-
-							<div class="wrap-input100 validate-input" data-validate = "Message is required">
-								<textarea class="input100" name="message" placeholder="Message"></textarea>
-								<span class="focus-input100"></span>
-							</div>
-
-							<div class="container-contact100-form-btn">
-								<button class="contact100-form-btn">
-									Send
-								</button>
-							</div>
-							</form>
-						</div>
-					</div>
-				</div>
+			<div class="cntct">
+				<h1 class="display-1 text-center" data-aos="fade-up" data-aos-anchor-placement="center-center">Contact Me</h1><hr>
+				<div class="container contact-form" data-aos="fade-right"  data-aos-easing="ease-in-sine">
+            			<div class="contact-image">
+                			<img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+          			  	</div>
+            		<form method="post" action="#contact">
+               			<h3>Drop in a Message</h3>
+               			<div class="row">
+                    		<div class="col-md-6">
+                        		<div class="form-group">
+                            		<input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        		</div>
+                        	<div class="form-group">
+                            	<input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        	</div>
+                        	<div class="form-group">
+                            	<input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        	</div>
+                        	<div class="form-group">
+                            	<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    	</div>
+                    	<div class="col-md-6">
+                        	<div class="form-group">
+                            	<textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        	</div>
+                   		</div>
+                	</div>
+            	</form>
 			</div>
 		</section><hr>
 		<!-- footer -->
