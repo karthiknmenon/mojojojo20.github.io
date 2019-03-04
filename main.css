@@ -1,4 +1,15 @@
 
+h2:hover {
+  font-size: 0;
+  line-height: 0; 
+}
+
+h2:hover:before {
+  content: attr(data-hover);
+  font-size:30px;
+  line-height: 30px;
+  margin-bottom: -10px;
+}
 .abt{
 		height: 700px;
 		padding: 100px;
