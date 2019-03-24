@@ -4,7 +4,7 @@
 		background-repeat: no-repeat;
 		margin-top: 60px;
 		margin-left: 300px;
-		height: 1920px;
+		height: 1320px;
 		width: 1080px;
 		position: relative;
 	}
@@ -21,10 +21,11 @@
 		position: relative;
 	    display: block;
 	    top:50px;
+	    margin-left: 300px;
 	}
 	.skls{
 		text-align: justify;
-	/*	margin-left: 200px;*/
+		margin-left: 300px;
 		margin-top: 75px;
 		position: relative;
 	    display: block;
@@ -34,20 +35,20 @@
 	/*	padding: 100px;*/
 	}
 	.card-deck{
-		margin-left: 410px;
+		margin-left: 400px;
 	}
 	.edc{
 		height: 1020px;
 		width: 1080px;
+		margin-left: 300px;
 		text-align: justify;
-		margin-left: 25px;
 		margin-top: 75px;
 		position: relative;
 	    display: block;
 	    top:50px;
 	}
 	.prjct{
-		margin-left: 40px;
+		margin-left: 300px;
 		margin-top: 75px;
 		height: 1020px;
 		width: 1080px;
@@ -57,6 +58,7 @@
 	}
 	.cntct{
 		margin-top: 75px;
+		margin-left: 300px;
 		height: 1020px;
 		width: 1080px;
 		position: relative;
@@ -70,7 +72,7 @@
 	    text-align: bottom-right;
 	    color:#343a40;
 	    height: 40px;
-	    width: 1980px;
+	    width: 411vw;
 	    text-decoration-color: white;
 		/*height: 200px;
 		width: 100%;*/
