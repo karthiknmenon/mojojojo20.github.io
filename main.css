@@ -6,24 +6,32 @@ h2:hover {
 
 h2:hover:before {
   content: attr(data-hover);
-  font-size:30px;
+  font-size:1.875rem;
   line-height: 30px;
   margin-bottom: -10px;
+}
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:#000;
 }
 .navbar-collapse{
   color: black;
 }
 .abt{
-		height: 700px;
-		padding: 100px;
+		height: 112vh;
+		padding: 16.2vh;
 	}
 #portrait{
 	background-image: url(1234.jpg);
 	background-repeat: no-repeat;
-	margin-top: 60px;
-	margin-left: 330px;
-	height: 1000px;
-	width: 1000px;
+	margin-top: 9.75vh;
+	margin-left: 53.6vh;
+  /*border-radius: 1500px;*/
+	height: 162.6vh;
+	width: 162.6vh;
 	position: relative;
 }
 .welcome{
@@ -36,55 +44,55 @@ h2:hover:before {
 .abt{
 	text-align: justify;
 /*	padding: 75px;*/
-	margin-top: 75px;
-	height:400px;
+	margin-top: 12.19vh;
+	height:65.04vh;
 	position: relative;
     display: block;
-    top:50px;
+    top:8.13vh;
 }
 .skls{
 	text-align: justify;
-	margin-top: 75px;
-	height:900px;
+	margin-top: 12.19vh;
+	height:96.3vh;
 	position: relative;
     display: block;
-    top:50px;
+    top:8.13vh;
 }
 .edc{
 		text-align: justify;
-	margin-top: 75px;
-	height:900px;
+	margin-top: 12.19vh;
+	height:146.3vh;
 	position: relative;
     display: block;
-    top:50px;
+    top:8.13vh;
 }
 .prjct{
-	margin-top: 75px;
-	height:1000px;
+	margin-top: 12.19vh;
+	height:162.6vh;
 	position: relative;
     display: block;
-    top:50px;
+    top:8.13vh;
 }
 .cntct{
-	margin-top: 75px;
-	height:700px;
+	margin-top: 12.19vh;
+	height:113.8vh;
 	position: relative;
     display: block;
-    top:20px;
+    top:3.25vh;
 }
 .card-text.p{
 	color: white;
 }
 .nav-item a{
-	font-size: 16px;
+	font-size: 1rem;
 }
 .ftr{
-	top:140px;
+	top:22.7vh;
 	position: relative;
     display: block;
     text-align: bottom-right;
     color:#343a40;
-    height: 40px;
+    height: 6.50vh;
     width: 100%;
     text-decoration-color: white;
 	/*height: 200px;

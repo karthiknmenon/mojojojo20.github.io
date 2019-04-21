@@ -5,36 +5,36 @@
     #portrait{
 		background-image: url(1234.jpg);
 		background-repeat: no-repeat;
-		margin-top: 60px;
-		margin-left: 300px;
-		height: 1320px;
-		width: 1080px;
+		margin-top: 9.75vh;
+		margin-left: 48.78vh;
+		height: 214.6vh;
+		width: 158.5vw;
 		position: relative;
 	}
 
 
 	.abt{
-		height: 1920px;
+		height: 312.19VH;
 		width: 100%;
 		padding: 100px;
 		text-align: justify;
 	/*	padding: 75px;*/
-		margin-top: 75px;
-		height:400px;
+		margin-top: 12.19vh;
+		height:65.04vh;
 		position: relative;
 	    display: block;
-	    top:50px;
-	    margin-left: 300px;
+	    top:8.13vh;
+	    margin-left: 48.78vh;
 	}
 	.skls{
 		text-align: justify;
-		margin-left: 300px;
-		margin-top: 75px;
+		margin-left:  48.78vh;
+		margin-top: 12.19vh;
 		position: relative;
 	    display: block;
-	    top:50px;
-		height: 1320px;
-		width: 1080px;
+	    top:8.13vh;
+		height: 214.6vh;
+		width: 158.5vw;
 	/*	padding: 100px;*/
 	}
 	.card-deck{
