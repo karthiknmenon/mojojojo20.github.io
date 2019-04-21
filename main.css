@@ -164,7 +164,7 @@ h2:hover:before {
 }
 
 .github {
-  background: #228B22;
+  background: #1B5E20;
   color: white;
 }
 
@@ -174,16 +174,16 @@ h2:hover:before {
 }
 
 .google {
-  background: #dd4b39;
+  background: #c62828;
   color: white;
 }
 .resume {
-  background: slategray;
+  background: #424242;
   color: white;
 }
 
 .linkedin {
-  background: #007bb5;
+  background: #01579B;
   color: white;
 }
 
