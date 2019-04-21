@@ -1,4 +1,7 @@
 @media screen and (max-width: 479px) {
+	html,body{
+		width: 100%;
+	}
     #portrait{
 		background-image: url(1234.jpg);
 		background-repeat: no-repeat;
@@ -12,7 +15,7 @@
 
 	.abt{
 		height: 1920px;
-		width: 1080px;
+		width: 100%;
 		padding: 100px;
 		text-align: justify;
 	/*	padding: 75px;*/
