@@ -31,6 +31,18 @@
 	<script type="text/javascript">
 		document.addEventListener('contextmenu', event => event.preventDefault());
 	</script>
+	<!-- Always get the latest version -->
+	<!-- Not recommended for production sites! -->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+	<!-- Get minor updates and patch fixes within a major version -->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+	<!-- Get patch fixes within a minor version -->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+	<!-- Get a specific version -->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
 	<!-- navbar -->
@@ -44,22 +56,22 @@
 	  	<div class="collapse navbar-collapse" id="navbarNav">
 	    	<ul class="navbar-nav">
 	     	 	<li class="nav-item">
-	        		<a class="nav-link" href="#home">Home</a>
+	        		<a class="nav-link" data-scroll href="#home">Home</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#about">About</a>
+	        		<a class="nav-link" data-scroll href="#about">About</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#skills">Skills</a>
+	        		<a class="nav-link" data-scroll href="#skills">Skills</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#education">Education</a>
+	        		<a class="nav-link" data-scroll href="#education">Education</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#projects">Projects</a>
+	        		<a class="nav-link" data-scroll href="#projects">Projects</a>
 	      		</li>
 	      		<li class="nav-item ">
-	        		<a class="nav-link" href="#contact">Contact Me</a>
+	        		<a class="nav-link" data-scroll href="#contact">Contact Me</a>
 	      		</li>
 	 		</ul>
 	 		<ul class="navbar-nav ml-auto">
@@ -281,5 +293,9 @@
     		duration: 1900,
     	});
   	</script>
+  	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+	speed: 500;
+</script>
 </body>
 </html>
