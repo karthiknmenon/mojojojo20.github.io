@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/cfamily=Darker+Grotesque:300,400,500,600,700,800,900&display=swap");
+.about .about-content h1 {
+  color: #212121;
+}
+
+.about .about-content p {
+  color: #757575;
+  font-weight: 300;
+}
+/*# sourceMappingURL=main.css.map */

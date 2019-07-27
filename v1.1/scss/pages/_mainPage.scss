@@ -1,0 +1,12 @@
+.about {
+    .about-content {
+        h1 {
+            color: $primary-text--color;
+        }
+
+        p {
+            color: $secondary-text--color;
+            font-weight: $font-thin;
+        }
+    }
+}
