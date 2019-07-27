@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/cfamily=Darker+Grotesque:300,400,500,600,700,800,900&display=swap");
+::-moz-selection {
+  background-color: #B2DFDB;
+}
+::selection {
+  background-color: #B2DFDB;
+}
+
+.about {
+  padding: 13% 0;
+}
+
 .about .about-content {
   padding: 0 120px;
 }
@@ -9,8 +20,18 @@
   }
 }
 
+.about .about-content .about-content--text {
+  margin: 32px 0 0 0;
+}
+
 .about .about-content h1 {
   color: #212121;
+}
+
+@media screen and (max-width: 767px) {
+  .about .about-content h1 {
+    font-size: 64px;
+  }
 }
 
 .about .about-content p {
@@ -19,8 +40,18 @@
   text-align: justify;
 }
 
+.skills {
+  padding: 52px 0;
+}
+
 .skills .skills-content {
   padding: 0 120px;
+}
+
+@media screen and (max-width: 991px) {
+  .skills .skills-content {
+    padding: 0 64px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -33,10 +64,31 @@
   color: #212121;
 }
 
+@media screen and (max-width: 767px) {
+  .skills .skills-content h1 {
+    font-size: 64px;
+  }
+}
+
 .skills .skills-content p {
   color: #757575;
   font-weight: 300;
   text-align: justify;
+}
+
+.skills .skills-content .skills-content--text {
+  margin: 32px 0 0 0;
+}
+
+.skills .skills-content .card {
+  min-width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+  .skills .skills-content .card {
+    text-align: center;
+    min-width: 200px;
+  }
 }
 
 .skills .skills-content .card:hover {
@@ -52,5 +104,104 @@
 
 .skills .skills-content .card .card-body {
   padding: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .skills .skills-content .card .card-body p {
+    text-align: center;
+  }
+}
+
+.education {
+  padding: 52px 0;
+}
+
+.education .education-content {
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 991px) {
+  .education .education-content {
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education .education-content {
+    padding: 0 64px;
+  }
+}
+
+.education .education-content .education-content--text {
+  margin: 32px 0 0 0;
+}
+
+.education .education-content h1 {
+  color: #212121;
+}
+
+@media screen and (max-width: 767px) {
+  .education .education-content h1 {
+    font-size: 64px;
+  }
+}
+
+.education .education-content p {
+  color: #757575;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.education .education-content .timeline-item {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.education .education-content .timeline-item h1 {
+  color: #212121;
+}
+
+@media screen and (max-width: 767px) {
+  .education .education-content .timeline-item h1 {
+    font-size: 40px;
+  }
+}
+
+.education .education-content .timeline-item p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.education .education-content .timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .785rem;
+}
+
+.education .education-content .timeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.education .education-content .timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
 }
 /*# sourceMappingURL=main.css.map */
