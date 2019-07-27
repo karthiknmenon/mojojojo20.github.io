@@ -204,3 +204,45 @@
         }
     }
 }
+.contact {
+    // height: 100%;
+    padding: 13% 0;
+
+    .contact-content {
+        padding: 0 120px;
+
+        @include viewport(mob) {
+            padding: 0 64px;
+        }
+
+        .contact-content--text {
+            margin: 32px 0 0 0;
+        }
+
+        h1 {
+            color: $primary-text--color;
+
+            @include viewport(mob) {
+                font-size: 64px;
+            }
+        }
+
+        p {
+            color: $secondary-text--color;
+            font-weight: $font-thin;
+            text-align: justify;
+        }
+    }
+}
+.footer {
+    background-color: #f5f5f5;
+    p{
+        margin:0 !important;
+    }
+    i{
+        padding:0 8px;
+    }
+    a{
+        text-decoration: none;
+    }
+  }
