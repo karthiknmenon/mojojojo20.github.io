@@ -1,5 +1,9 @@
 .about {
     .about-content {
+        padding: 0 120px;
+        @include viewport(mob){
+            padding: 0 64px;
+        }
         h1 {
             color: $primary-text--color;
         }
@@ -7,6 +11,24 @@
         p {
             color: $secondary-text--color;
             font-weight: $font-thin;
+            text-align: justify;
+        }
+    }
+}
+.skills {
+    .skills-content {
+        padding: 0 120px;
+        @include viewport(mob){
+            padding: 0 64px;
+        }
+        h1 {
+            color: $primary-text--color;
+        }
+
+        p {
+            color: $secondary-text--color;
+            font-weight: $font-thin;
+            text-align: justify;
         }
     }
 }

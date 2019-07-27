@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/cfamily=Darker+Grotesque:300,400,500,600,700,800,900&display=swap");
+.about .about-content {
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .about .about-content {
+    padding: 0 64px;
+  }
+}
+
 .about .about-content h1 {
   color: #212121;
 }
@@ -6,5 +16,26 @@
 .about .about-content p {
   color: #757575;
   font-weight: 300;
+  text-align: justify;
+}
+
+.skills .skills-content {
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .skills .skills-content {
+    padding: 0 64px;
+  }
+}
+
+.skills .skills-content h1 {
+  color: #212121;
+}
+
+.skills .skills-content p {
+  color: #757575;
+  font-weight: 300;
+  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */
