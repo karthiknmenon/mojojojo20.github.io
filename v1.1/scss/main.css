@@ -44,6 +44,28 @@ html, body {
   }
 }
 
+.home .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .banner-img {
+  width: 100%;
+  border-radius: 16px;
+  opacity: 0.5;
+}
+
+.home .banner-img:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .home .banner-img {
+    display: none;
+  }
+}
+
 .home .home-content {
   padding: 0 120px;
 }

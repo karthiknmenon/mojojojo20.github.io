@@ -38,7 +38,20 @@ html,body{
     @include viewport(mob){
         padding: 160px 0 160px 0;
     }
-
+    .row{
+        align-items:center;
+    }
+    .banner-img{
+        width:100%;
+        border-radius: 16px;
+        opacity: 0.5;
+        &:hover{
+            opacity:1;
+        }
+        @include viewport(mob){
+            display: none;
+        }
+    }
     .home-content {
         padding: 0 120px;
 
@@ -67,7 +80,7 @@ html,body{
                 animation: all 0.3s ease-in;
             }
         }
-
+       
         h3 {
             &:hover {
                 border-bottom: 3px solid $accent-color;
