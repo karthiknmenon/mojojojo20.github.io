@@ -6,6 +6,55 @@
   background-color: #B2DFDB;
 }
 
+.home {
+  padding: 13% 0;
+}
+
+.home .home-content {
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .home .home-content {
+    padding: 0 64px;
+  }
+}
+
+.home .home-content .home-content--text {
+  margin: 32px 0 0 0;
+}
+
+.home .home-content h1 {
+  color: #212121;
+}
+
+@media screen and (max-width: 767px) {
+  .home .home-content h1 {
+    font-size: 64px;
+  }
+}
+
+.home .home-content h1:hover {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 350px;
+  color: white;
+  background: #FFC107;
+  -webkit-animation: all 0.3s ease-in;
+          animation: all 0.3s ease-in;
+}
+
+.home .home-content h3:hover {
+  border-bottom: 3px solid #FFC107;
+}
+
+.home .home-content p {
+  color: #757575;
+  font-weight: 300;
+  text-align: justify;
+}
+
 .about {
   padding: 13% 0;
 }
