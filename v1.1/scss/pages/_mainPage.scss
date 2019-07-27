@@ -223,7 +223,7 @@ html,body{
             color: $primary-text--color;
 
             @include viewport(mob) {
-                font-size: 64px;
+                font-size: 30px !important;
             }
         }
 

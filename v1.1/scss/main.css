@@ -252,7 +252,7 @@ html, body {
 
 @media screen and (max-width: 767px) {
   .education .education-content h1 {
-    font-size: 64px;
+    font-size: 30px !important;
   }
 }
 

@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 home-content ">
-                    <h1 class="display-2">Hello</h1>
+                    <h1 class="display-2">Hello There !</h1>
                     <h3>This is Karthik Menon</h3>
                     <h3>IT undergrad | Front End Dev | UI/UX | Designer</h3>
                 </div>
@@ -143,7 +143,7 @@
                     <hr>
                     <!-- timeline -->
                     <div class="timeline-item" date-is='20-05-1998' data-aos="fade-left">
-                        <h1>Hello, </h1>
+                        <h1>Hello!</h1>
                         <p>
                             On 20th May 1998, I stepped into this world.
                         </p>
@@ -253,22 +253,22 @@
                 <div class="col-md-12 col-xs-12 contact-content ">
                     <h1 class="display-1 text-center">Get in touch</h1>
                     <hr>
-                    <form>
+                    <form name="mojo-contact" method="POST" data-netlify="true">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputEmail4">Name</label>
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your name"
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" name="name" id="inputName" placeholder="Enter your name"
                                     required>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputPassword4">Email</label>
-                                <input type="email" class="form-control" id="inputPassword4"
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" name="email" id="inputEmail"
                                     placeholder="How do I get back to you ?" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress">Message</label>
-                            <input type="textarea" class="form-control" id="inputAddress" placeholder="Umm..." required>
+                            <label for="inputMessage">Message</label>
+                            <input type="textarea" class="form-control"  name="message" id="inputMessage" placeholder="Umm..." required>
                         </div>
                         <button type="submit" class="btn btn-outline-primary">Say Hello</button>
                     </form>
@@ -279,7 +279,7 @@
     <div class="container" style="overflow: hidden;">
         <div class="row">
             <div class="col-md-12 offset-md-11 col-sm-12 offset-sm-11  move-top">
-                <a href="#home" data-scroll data-easing="easeOutQuad"><i onclick="topFunction()" id="myBtn"
+                <a href="#home" data-scroll data-easing="easeOutQuad"><i 
                         class="fa fa-arrow-up fa-2x"></i></a>
             </div>
         </div>
