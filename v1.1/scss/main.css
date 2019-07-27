@@ -6,8 +6,42 @@
   background-color: #B2DFDB;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  html h1, body h1 {
+    font-size: 52px !important;
+  }
+}
+
+.top-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.top-nav nav a {
+  padding: 0 8px !important;
+  text-decoration: none;
+  -webkit-animation: all 0.3s ease-in;
+          animation: all 0.3s ease-in;
+}
+
+.top-nav nav a:hover {
+  border-bottom: 2px solid #FFC107;
+}
+
 .home {
   padding: 13% 0;
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    padding: 160px 0 160px 0;
+  }
 }
 
 .home .home-content {
@@ -39,7 +73,7 @@
   text-transform: uppercase;
   text-decoration: none;
   width: 350px;
-  color: white;
+  color: #FFFFFF;
   background: #FFC107;
   -webkit-animation: all 0.3s ease-in;
           animation: all 0.3s ease-in;
@@ -283,7 +317,7 @@
 
 @media screen and (max-width: 767px) {
   .contact .contact-content h1 {
-    font-size: 64px;
+    font-size: 44px !important;
   }
 }
 
@@ -307,5 +341,14 @@
 
 .footer a {
   text-decoration: none;
+}
+
+.move-top i {
+  cursor: pointer;
+  padding: 16px;
+}
+
+.move-top i:hover {
+  color: #FFC107;
 }
 /*# sourceMappingURL=main.css.map */

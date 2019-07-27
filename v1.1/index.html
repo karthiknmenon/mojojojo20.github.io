@@ -12,32 +12,34 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Karthik Menon</title>
 </head>
 
 <body>
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-                <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
-                <nav class="my-2 my-md-0 mr-md-3">
-                  <a class="p-2 text-dark" href="#">Features</a>
-                  <a class="p-2 text-dark" href="#">Enterprise</a>
-                  <a class="p-2 text-dark" href="#">Support</a>
-                  <a class="p-2 text-dark" href="#">Pricing</a>
-                </nav>
-                <a class="btn btn-outline-primary" href="#">Sign up</a>
-              </div>
-        <section class="home" id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-xs-12 home-content ">
-                            <h1 class="display-2">Hello</h1>
-                            <h3>This is Karthik Menon</h3>
-                            <h3>IT undergrad | Front End Dev | UI/UX | Designer</h3>
-                        </div>
-                    </div>
+        <div
+            class="top-nav d-flex flex-column fixed flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Karthik Menon</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" data-scroll data-easing="easeOutQuad" href="#about">About</a>
+                <a class="p-2 text-dark" data-scroll data-easing="easeOutQuad" href="#skills">Skills</a>
+                <a class="p-2 text-dark" data-scroll data-easing="easeOutQuad" href="#education">My Story</a>
+                <a class="p-2 text-dark" data-scroll data-easing="easeOutQuad" href="#contact">Contact</a>
+            </nav>
+        </div>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12 home-content ">
+                    <h1 class="display-2">Hello</h1>
+                    <h3>This is Karthik Menon</h3>
+                    <h3>IT undergrad | Front End Dev | UI/UX | Designer</h3>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
     <section class="about" id="about">
         <div class="container">
             <div class="row">
@@ -57,7 +59,7 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="flex_row">
-                <div class="col-md-12 col-xs-10 col-xs-offset-1 skills-content">
+                <div class="col-md-12 col-xs-10 skills-content">
                     <h1 class="display-1 text-center">Skills</h1>
                     <hr>
                     <div class="card-deck skills-content--text">
@@ -257,23 +259,33 @@
             </div>
         </div>
     </section>
+    <div class="container" style="overflow: hidden;">
+        <div class="row">
+            <div class="col-md-12 offset-md-11 col-sm-12 offset-sm-11  move-top">
+                <a href="#home" data-scroll data-easing="easeOutQuad"><i onclick="topFunction()" id="myBtn"
+                        class="fa fa-arrow-up fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+
 
     <footer class="footer mt-auto py-3">
         <div class="container">
             <p class="text-center"><span class="text-muted">Made with <span style="color: #e25555;">&#9829;</span> by
                     Karthik Menon</span></p>
+
             <p class="text-center"><span class="text-muted">
                     <a href="https://github.com/mojojojo20"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/karthik-menon/"><i class="fa fa-linkedin"></i></a>
                     <a href="mailto:menonk484@gmail.com?Subject=Hello%20There" target="_top"> <i
                             class="fa fa-envelope"></i></a>
-                    <a href=""> <i
-                            class="fa fa-download"></i></a>
+                    <a href=""> <i class="fa fa-download"></i></a>
                 </span> </p>
         </div>
     </footer>
     <script>
         AOS.init();
+        var scroll = new SmoothScroll('a[href*="#"]');
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
