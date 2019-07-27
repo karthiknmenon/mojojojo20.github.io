@@ -1,7 +1,8 @@
-::selection{
-    background-color:#B2DFDB;
+::selection {
+    background-color: #B2DFDB;
     // color:white;
 }
+
 // html,
 // body {
 //   height: 100%;
@@ -14,20 +15,24 @@
 // }
 .about {
     // height: 100%;
-    padding:13% 0;
+    padding: 13% 0;
+
     .about-content {
         padding: 0 120px;
 
         @include viewport(mob) {
             padding: 0 64px;
         }
-        .about-content--text{
-            margin:32px 0 0 0;
+
+        .about-content--text {
+            margin: 32px 0 0 0;
         }
+
         h1 {
             color: $primary-text--color;
-            @include viewport(mob){
-                font-size:64px;
+
+            @include viewport(mob) {
+                font-size: 64px;
             }
         }
 
@@ -40,20 +45,24 @@
 }
 
 .skills {
-    padding:52px 0;
+    padding: 52px 0;
+
     .skills-content {
         padding: 0 120px;
-        @include viewport(tablet){
-            padding:0 64px;
+
+        @include viewport(tablet) {
+            padding: 0 64px;
         }
+
         @include viewport(mob) {
             padding: 0 64px;
         }
 
         h1 {
             color: $primary-text--color;
-            @include viewport(mob){
-                font-size:64px;
+
+            @include viewport(mob) {
+                font-size: 64px;
             }
         }
 
@@ -62,17 +71,20 @@
             font-weight: $font-thin;
             text-align: justify;
         }
-        .skills-content--text{
-            margin:32px 0 0 0;
+
+        .skills-content--text {
+            margin: 32px 0 0 0;
         }
 
         .card {
             min-width: 250px;
+
             // max-width: 18rem;
-            @include viewport(tablet){
+            @include viewport(tablet) {
                 text-align: center;
-                min-width:200px;
+                min-width: 200px;
             }
+
             &:hover {
 
                 box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
@@ -87,11 +99,13 @@
 
             .card-body {
                 padding: 1rem;
-                @include viewport(tablet){
-                    p
-                    {text-align: center;}
+
+                @include viewport(tablet) {
+                    p {
+                        text-align: center;
+                    }
                 }
-               
+
             }
         }
 
@@ -100,24 +114,32 @@
 }
 
 .education {
-    padding:52px 0;
+    padding: 52px 0;
+
     .education-content {
         padding: 0 120px;
-        @include viewport(tablet){
-            padding:0 64px;
+
+        @include viewport(tablet) {
+            padding: 0 64px;
         }
+
         @include viewport(mob) {
             padding: 0 64px;
         }
 
-        
-        .education-content--text{
-            margin:32px 0 0 0;
+        a{
+            text-decoration: none;
+            cursor: pointer;
         }
+        .education-content--text {
+            margin: 32px 0 0 0;
+        }
+
         h1 {
             color: $primary-text--color;
-            @include viewport(mob){
-                font-size:64px;
+
+            @include viewport(mob) {
+                font-size: 64px;
             }
         }
 
@@ -126,57 +148,59 @@
             font-weight: $font-thin;
             text-align: justify;
         }
+
         $border-color: rgba(black, .3);
 
-.timeline-item {
-	padding: 3em 2em 2em;
-	position: relative;
-	color: rgba(black, .7);
-	border-left: 2px solid $border-color;
-	h1{
-        color: $primary-text--color;
-            @include viewport(mob){
-                font-size:40px;
+        .timeline-item {
+            padding: 3em 2em 2em;
+            position: relative;
+            color: rgba(black, .7);
+            border-left: 2px solid $border-color;
+
+            h1 {
+                color: $primary-text--color;
+
+                @include viewport(mob) {
+                    font-size: 40px;
+                }
             }
-    }
-	p {
-        line-height: 1.5;
 
-		font-size: 1rem;
-	}
-	
-	&::before {
-		content: attr(date-is);
-		position: absolute;
-		left: 2em;
-		font-weight: bold;
-		top: 1em;
-		display: block;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 700;
-		font-size: .785rem;
-	}
+            p {
+                line-height: 1.5;
 
-	&::after {
-		width: 10px;
-		height: 10px;
-		display: block;
-		top: 1em;
-		position: absolute;
-		left: -7px;
-		border-radius: 10px;
-		content: '';
-		border: 2px solid $border-color;
-		background: white;
-	}
+                font-size: 1rem;
+            }
 
-	&:last-child {
-		border-image: linear-gradient(
-			to bottom,
-			$border-color 60%,
-			rgba($border-color, 0)) 1 100%
-		;
-	}
-}
+            &::before {
+                content: attr(date-is);
+                position: absolute;
+                left: 2em;
+                font-weight: bold;
+                top: 1em;
+                display: block;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: .785rem;
+            }
+
+            &::after {
+                width: 10px;
+                height: 10px;
+                display: block;
+                top: 1em;
+                position: absolute;
+                left: -7px;
+                border-radius: 10px;
+                content: '';
+                border: 2px solid $border-color;
+                background: white;
+            }
+
+            &:last-child {
+                border-image: linear-gradient(to bottom,
+                        $border-color 60%,
+                        rgba($border-color, 0)) 1 100%;
+            }
+        }
     }
 }
