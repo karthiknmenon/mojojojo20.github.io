@@ -38,4 +38,19 @@
   font-weight: 300;
   text-align: justify;
 }
+
+.skills .skills-content .card:hover {
+  box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-transform: translateY(-2%);
+          transform: translateY(-2%);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.skills .skills-content .card .card-body {
+  padding: 1rem;
+}
 /*# sourceMappingURL=main.css.map */

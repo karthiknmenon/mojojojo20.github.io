@@ -1,9 +1,11 @@
 .about {
     .about-content {
         padding: 0 120px;
-        @include viewport(mob){
+
+        @include viewport(mob) {
             padding: 0 64px;
         }
+
         h1 {
             color: $primary-text--color;
         }
@@ -15,12 +17,15 @@
         }
     }
 }
+
 .skills {
     .skills-content {
         padding: 0 120px;
-        @include viewport(mob){
+
+        @include viewport(mob) {
             padding: 0 64px;
         }
+
         h1 {
             color: $primary-text--color;
         }
@@ -30,5 +35,25 @@
             font-weight: $font-thin;
             text-align: justify;
         }
+
+        .card {
+            &:hover {
+
+                box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+                -webkit-box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+                -moz-box-shadow: 3px 6px 15px 1px rgba(0, 0, 0, 0.12);
+                border: 1px solid rgba($primary-text--color, 0.2);
+                // transform: translateX(5%);
+                transform: translateY(-2%);
+                transition: all 0.3s ease-in;
+
+            }
+
+            .card-body {
+                padding: 1rem;
+            }
+        }
+
+
     }
 }
