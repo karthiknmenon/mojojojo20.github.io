@@ -137,6 +137,18 @@ body {
 .about {
     // height: 100%;
     padding: 13% 0;
+    #about-svg {
+        position: absolute;
+        left: 280px;
+        top: -40px;
+        z-index: -1;
+        height: 200px;
+        @include viewport(mob){
+            left:0px;
+            height: 699px;
+            top: -120px;
+        }
+    }
 
     .about-content {
         padding: 0 120px;
@@ -167,7 +179,19 @@ body {
 
 .skills {
     padding: 52px 0;
-
+    #skills-svg {
+        position: absolute;
+        left: 280px;
+        top: -30px;
+        z-index: -1;
+        height: 200px;
+        @include viewport(mob){
+            display: none;
+            left:0px;
+            height: 699px;
+            top: -120px;
+        }
+    }
     .skills-content {
         padding: 0 120px;
 
@@ -236,6 +260,18 @@ body {
 
 .education {
     padding: 52px 0;
+    #education-svg {
+        position: absolute;
+        left: 230px;
+        top: -30px;
+        z-index: -1;
+        height: 200px;
+        @include viewport(mob){
+            left:0px;
+            height: 699px;
+            top: -120px;
+        }
+    }
 
     .education-content {
         padding: 0 120px;
@@ -330,6 +366,18 @@ body {
 .contact {
     // height: 100%;
     padding: 13% 0;
+    #contact-svg {
+        position: absolute;
+        left: 180px;
+        top: -30px;
+        z-index: -1;
+        height: 200px;
+        @include viewport(mob){
+            left:0px;
+            height: 699px;
+            top: -120px;
+        }
+    }
 
     .contact-content {
         padding: 0 120px;
