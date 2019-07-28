@@ -413,6 +413,25 @@ body {
             text-align: justify;
         }
     }
+
+    .tsk-manager {
+        span {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                span {
+                    display: block;
+                    color: $primary-text--color;
+                }
+            }
+        }
+
+        padding:16px 0;
+    }
 }
 
 .footer {

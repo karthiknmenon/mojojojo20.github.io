@@ -344,7 +344,14 @@
                         </div>
                         <button type="submit" class="btn btn-outline-primary">Say Hello</button>
                     </form>
+                    <div class="tsk-manager">
+                        <p>Scheduling tasks but not able to meet deadlines ? Check out my mini project - <a
+                                href="https://tskmanager.netlify.com/" data-toggle="tooltip" data-placement="right"
+                                title="Integrating with Google Calendar API Soon">Task Manager<br>
+                                <span id="tool-tip">Integrating with Google Calendar API Soon</span></a> </p>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -379,6 +386,9 @@
         var scroll = new SmoothScroll('a[href*="#"]');
         particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function () {
             console.log('callback - particles.js config loaded');
+        });
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
     <!-- bootstrap JS -->
