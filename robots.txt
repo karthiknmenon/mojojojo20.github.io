@@ -1,2 +1,5 @@
+
+Sitemap: https://karthikmenon.me/sitemap.xml
 User-agent: * 
 Disallow: 
+
