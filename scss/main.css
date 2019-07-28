@@ -82,10 +82,6 @@ body {
 .home .banner-img {
   width: 100%;
   border-radius: 16px;
-  opacity: 0.5;
-}
-
-.home .banner-img:hover {
   opacity: 1;
 }
 

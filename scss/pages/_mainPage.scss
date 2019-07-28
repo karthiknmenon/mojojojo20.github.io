@@ -79,11 +79,7 @@ body {
     .banner-img {
         width: 100%;
         border-radius: 16px;
-        opacity: 0.5;
-
-        &:hover {
-            opacity: 1;
-        }
+        opacity: 1;
 
         @include viewport(mob) {
             display: none;
