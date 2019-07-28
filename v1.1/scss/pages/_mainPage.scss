@@ -2,15 +2,44 @@
     background-color: $primary-color--light;
     // color:white;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     overflow-x: hidden;
-    h1{
-        @include viewport(mob){
+
+    h1 {
+        @include viewport(mob) {
             font-size: 52px !important;
         }
     }
 }
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 1000px;
+
+    @include viewport(mob) {
+        height: 600px;
+    }
+
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
 // body{
 //     position: absolute;
 // }
@@ -18,40 +47,49 @@ html,body{
     position: fixed;
     width: 100%;
     z-index: 3;
-    nav{
-        a{
-            padding:0 8px !important;
+
+    nav {
+        a {
+            padding: 1px 8px !important;
             text-decoration: none;
-            &:hover{
+
+            &:hover {
                 border-bottom: 2px solid $accent-color;
             }
+
             animation: all 0.3s ease-in;
         }
     }
-    @include viewport(mob){    
-    }
+
+    @include viewport(mob) {}
 }
 
 .home {
     // height: 100%;
     padding: 13% 0;
-    @include viewport(mob){
+
+    @include viewport(mob) {
         padding: 160px 0 160px 0;
     }
-    .row{
-        align-items:center;
+
+    .row {
+        align-items: center;
     }
-    .banner-img{
-        width:100%;
+
+    .banner-img {
+        width: 100%;
         border-radius: 16px;
         opacity: 0.5;
-        &:hover{
-            opacity:1;
+
+        &:hover {
+            opacity: 1;
         }
-        @include viewport(mob){
+
+        @include viewport(mob) {
             display: none;
         }
     }
+
     .home-content {
         padding: 0 120px;
 
@@ -80,7 +118,7 @@ html,body{
                 animation: all 0.3s ease-in;
             }
         }
-       
+
         h3 {
             &:hover {
                 border-bottom: 3px solid $accent-color;
@@ -335,13 +373,15 @@ html,body{
         text-decoration: none;
     }
 }
-.move-top{
-  
-    i{
-        
+
+.move-top {
+
+    i {
+
         cursor: pointer;
         padding: 16px;
-        &:hover{
+
+        &:hover {
             color: $accent-color;
         }
     }

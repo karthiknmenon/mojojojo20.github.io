@@ -6,14 +6,43 @@
   background-color: #B2DFDB;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {
-  html h1, body h1 {
+  html h1,
+  body h1 {
     font-size: 52px !important;
+  }
+}
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease, -webkit-transform 1.4s ease;
+}
+
+#particles-js {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #particles-js {
+    height: 600px;
   }
 }
 
@@ -24,7 +53,7 @@ html, body {
 }
 
 .top-nav nav a {
-  padding: 0 8px !important;
+  padding: 1px 8px !important;
   text-decoration: none;
   -webkit-animation: all 0.3s ease-in;
           animation: all 0.3s ease-in;

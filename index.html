@@ -49,6 +49,9 @@
 </head>
 
 <body>
+
+
+
     <div
         class="top-nav d-flex flex-column fixed flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <h5 class="my-0 mr-md-auto font-weight-normal">Karthik Menon</h5>
@@ -61,6 +64,7 @@
     </div>
 
     <section class="home" id="home">
+        <div id="particles-js"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12 home-content ">
@@ -74,7 +78,9 @@
                 </div>
             </div>
         </div>
+
     </section>
+
     <section class="about" id="about">
         <div class="container">
             <div class="row">
@@ -138,11 +144,10 @@
                             </div>
                         </div>
                         <div class="card  mb-3">
-                            <div class="card-header">Others</div>
+                            <div class="card-header">Development</div>
                             <div class="card-body">
                                 <p class="card-text">Gulp</p>
                                 <p class="card-text">blockchain</p>
-                                <p class="card-text">Star UML</p>
                                 <p class="card-text">tensorflow</p>
                             </div>
                         </div>
@@ -279,7 +284,7 @@
                 <div class="col-md-12 col-xs-12 contact-content ">
                     <h1 class="display-1 text-center">Get in touch</h1>
                     <hr>
-                    <form name="mojo-contact" method="POST" data-netlify="true">
+                    <form name="mojo-contact" action="https://formspree.io/menonk484@gmail.com" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputName">Name</label>
@@ -326,9 +331,13 @@
                 </span> </p>
         </div>
     </footer>
+    <script src="./assets/js/particles.js"></script>
     <script>
         AOS.init();
         var scroll = new SmoothScroll('a[href*="#"]');
+        particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
     </script>
     <!-- bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
