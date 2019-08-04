@@ -312,6 +312,7 @@ body {
 }
 
 .education .education-content a {
+  color: #212121;
   text-decoration: none;
   cursor: pointer;
 }
