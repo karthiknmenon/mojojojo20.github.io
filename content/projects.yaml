@@ -1,0 +1,16 @@
+- title: ColdBlocks
+  subtitle: ColdBlocks is a temperature guided route optimization algorithm to be used in coldchain industries which gathers real time data using Arduino UNO board integrated with Google Firebase. All transactions are logged into blockchain with a single webapp interface developed using reactJS.
+  # link: https://github.com/Mr404Found/Qr-Code-Application
+
+- title: R2G
+  subtitle: Review to Government is a Scraping cum Analyzing project which scrapes reviews from websites and provides analysis to each ministry. The results were graphed using matplotlib.
+  # link: https://github.com/Mr404Found/Basic-Music-Player
+
+- title: Teacher Feedback Analysis
+  subtitle: Implemented sentiment analysis using nltk in python for teacher feedback analysis from RSMS. The results were graphed using matplotlib.
+  # link: https://github.com/Mr404Found/AgeCalculator
+
+- title: Task Manager
+  subtitle: Used HTML,SCSS,Jquery to create a to-do task manager. Saved tasks on local storage using JSON objects. Hosted web application on netlify.
+  # link: https://github.com/Mr404Found/Qr-Code-Application
+
