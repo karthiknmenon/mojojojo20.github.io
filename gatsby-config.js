@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Karthik Menon | Front End Develoepr | UI/UX | Rajagiri College`,
+    description: `Welcome to Karthik Menon's Web Resume. Karthik Menon is a final year undergrad at Rajagiri School of Engineering and Technology, Kakkanad, India. Karthik Menon is a Front End Developer and recently into Machine Learning and blockchain.`,
+    author: `Karthik Menon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -28,6 +28,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,6 +36,7 @@ module.exports = {
         path: `./content/`,
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
