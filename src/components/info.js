@@ -97,7 +97,7 @@ export default function info() {
                   <p class="card-text">PHP</p>
                   <p class="card-text">nodeJS</p>
                   <p class="card-text">Gulp</p>
-                  <p class="card-text">boostrap and Frameworks</p>
+                  {/* <p class="card-text">boostrap and Frameworks</p> */}
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                 </div>
           </div>
