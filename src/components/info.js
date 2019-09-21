@@ -30,7 +30,7 @@ export default function info() {
       <div className="h3 code mt-2 mb-3">{"<body>"}</div>
       <div className="h3 code mx-3 mt-2 mb-3">{"<div id=\"About\">"}</div>
       <div className="text-muted mx-5 my-4 h4 text-justify info">
-        A Passionate Front-end Developer, UI/UX Designer, Web
+        I am a final year undergrad student at Rajagiri School of Engineering & Technology. A passionate Front-end Developer, UI/UX Designer, Web
         Developer. 
         <br /> I have also lately been interested in Machine Learning and blockchain.
       </div>
@@ -42,7 +42,7 @@ export default function info() {
             Bachelor's of Technology with Honours 
               <div class="mx-4">
                 2016-2020 
-                      <br/>9.04/10.00
+                      <br/>9.06/10.00
               </div>
           </div>
       </div>
@@ -235,7 +235,7 @@ export default function info() {
         <a className="mr-5 icon" href="mailto://menonk484@gmail.com">
           <Mail />
         </a>
-        <a className="mr-5 icon" href="https://drive.google.com/file/d/1RT0ZnU8krH_Oj3ztNDy4ACP_u-jgAEGi/view">
+        <a className="mr-5 icon" href="https://drive.google.com/open?id=1cXV2ztOhYJIViQ_rsxdUb1ahC-qJtn08">
           <FaDownload />
         </a>
       </div>
