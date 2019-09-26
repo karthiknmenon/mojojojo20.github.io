@@ -160,7 +160,7 @@ export default function info() {
           </div>
       </div>
       <div className="h3 mx-3 code mt-2 mb-3">{"</div>"}</div>
-      <div className="h3 mx-3 code mt-2 mb-3">{"<div id=\"Positions of Responsibility\">"}</div>
+      <div className="h3 mx-3 code mt-2 mb-3">{"<div id=\"Positions-of-Responsibility\">"}</div>
       <div className="mx-5 my-4 h3 text-justify info">
           <div className="mx-5 my-2 h4 text-justify info">
           Abhiyanthriki
@@ -210,7 +210,7 @@ export default function info() {
           </div>
       </div>
       <div className="h3 code mx-3 mt-2 mb-3">{"</div>"}</div>
-      <div className="h3 code mx-3 mt-2 mb-3">{"<div id=\"Extra-Curricular & Honors\">"}</div>
+      <div className="h3 code mx-3 mt-2 mb-3">{"<div id=\"Extra-Curricular-And-Honors\">"}</div>
       <div className="text-muted mx-5 my-4 h5 text-justify info">
             <p>Awarded Dean's Award for best academic performance 2018-2019.</p>
             <p>Cleared three rounds of TCS Engi-NX 2019, a hackathon by TCS to reach top 150 teams as of 13-06-2019</p>
