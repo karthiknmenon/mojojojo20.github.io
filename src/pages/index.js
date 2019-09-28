@@ -21,12 +21,6 @@ function index() {
                 <meta charSet="utf-8" />
                 <meta name="keywords" content="Rajagiri, Front End Developer, UI/UX, Web Developer, SurveySparrow, travelngo, traveling startup in Kerala, reactJS, Rajajgiri Front end dev, Rajagiri Developer, Rajagiri UI/UX, Karthik, Karthik Menon, mojojojo20, menonk484, menonk69, iTRAXX representative, blockchain developer, programmer, RSET, Information Technology, RSET IT Department, Karthik, flutter, Machine Leanring, hound electric, incubation center RSET, REACT, node, Angular, Figma, Mockups, Wireframing, User Experience, User Interface, SEO, helmet" />
       </Helmet>
-      <Helmet>
-            <meta name="linkedin" content="https://www.linkedin.com/in/karthik-menon/" />
-      </Helmet>
-      <Helmet>
-            <meta name="github" content="https://github.com/mojojojo20" />
-      </Helmet>
     </div>
   )
 }
