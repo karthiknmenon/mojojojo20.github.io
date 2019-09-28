@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Karthik Menon | Front End Develoepr | UI/UX | Rajagiri College`,
-    description: `Welcome to Karthik Menon's Web Resume. Karthik Menon is a final year undergrad at Rajagiri School of Engineering and Technology, Kakkanad, India. Karthik Menon is a Front End Developer and recently into Machine Learning and blockchain. mojojojo20, Karthik Menon, Rajagiri School of Engineering and Technology, RSET, Web Developers in kochi, Kochi, Kerala, India, UI/UX, travelngo, Rajagiri College, Front End Developers, Designers, Abhiyanthriki, Deadlock, Navrachana International School Vadodara, NISV, Machine Learning, Blockchain, Hyperledger`,
+    description: `Welcome to Karthik Menon's Web Resume. Karthik Menon is a final year undergrad at Rajagiri School of Engineering and Technology, Kakkanad, India. Karthik Menon is a Front End Developer and recently into Machine Learning and blockchain. mojojojo20, Karthik Menon, Rajagiri School of Engineering and Technology, RSET, Web Developers in kochi, Kochi, Kerala, India, UI/UX, travelngo, Rajagiri College, Front End Developers, Designers, Abhiyanthriki, Deadlock, Navrachana International School Vadodara, NISV, Machine Learning, Blockchain, Hyperledger. iTRAXX, Rajagiri, IT Department, APJ KTU`,
     author: `Karthik Menon, mojojojo20`,
   },
   plugins: [
