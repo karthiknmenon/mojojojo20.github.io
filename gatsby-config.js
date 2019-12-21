@@ -36,6 +36,25 @@ module.exports = {
       },
     },
     
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Karthik Menon",
+        short_name: "Karthik Menon",
+        start_url: "https://karthikmenon.me/",
+        background_color: "#1f2b3b",
+        theme_color: "#1f2b3b",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: "/logo.png", // This path is relative to the root of the site.
+        // An optional attribute which provides support for CORS check.
+        // If you do not provide a crossOrigin option, it will skip CORS for manifest.
+        // Any invalid keyword or empty string defaults to `anonymous`
+        crossOrigin: `use-credentials`,
+      },
+    },
+    
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
