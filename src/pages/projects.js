@@ -39,7 +39,6 @@ export const query = graphql`
         node {
           title
           subtitle
-
           id
         }
       }

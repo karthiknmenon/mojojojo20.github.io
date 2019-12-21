@@ -238,6 +238,9 @@ export default function info() {
         <a className="mr-5 icon" href="https://drive.google.com/open?id=1cXV2ztOhYJIViQ_rsxdUb1ahC-qJtn08">
           <FaDownload />
         </a>
+        <a className="mr-5 icon" href="https://www.instagram.com/kaarthikm_/">
+          <Insta />
+        </a>
       </div>
     </div>
   )
