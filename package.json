@@ -1,0 +1,19 @@
+{
+  "name": "mojojojo20.github.io",
+  "version": "1.0.0",
+  "description": "A one page design portfolio. v1.0 bootstrap v1.1 updates- SASS v1.2 update homepage v1.3 use gatsby",
+  "main": "gatsby-browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojojojo20/mojojojo20.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojojojo20/mojojojo20.github.io/issues"
+  },
+  "homepage": "https://github.com/mojojojo20/mojojojo20.github.io#readme"
+}
