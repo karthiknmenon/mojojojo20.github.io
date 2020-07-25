@@ -15,7 +15,7 @@ function index() {
       </Helmet>
       <Helmet>
                 <meta charSet="utf-8" />
-                <meta name="description" content="Hello, Welcome to Karthik Menon's Online Design Portoflio. He is a final year undergrad at Rajagiri School of Engineering and Technology doing majors in Information Technology with Honours in Networking. Karthik Menon is know for front end dev and also UI/UX. In recent past, he has been interested in Machine Learning and blockchain. Karthik also works for few startups at Incubation Center, RSET." />
+                <meta name="description" content="Hello, Welcome to Karthik Menon's Online Design Portoflio. He is a final year undergrad at Rajagiri School of Engineering and Technology doing majors in Information Technology with Honours. Karthik Menon is know for front end dev and also UI/UX. In recent past, he has been interested in Machine Learning and blockchain. Karthik also works for few startups at Incubation Center, RSET." />
       </Helmet>
       <Helmet>
                 <meta charSet="utf-8" />

@@ -1,5 +1,5 @@
 
-Sitemap: https://karthikmenon.me/sitemap.xml
+Sitemap: https://karthikmenon.com/sitemap.xml
 User-agent: * 
 Disallow: 
 

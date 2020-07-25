@@ -6,14 +6,14 @@
 
   <!-- github: mojojojo20 linkedin: Karthik Menon site: https://karthikmenon.me -->
   <url>
-    <loc>https://karthikmenon.me/</loc>
-    <lastmod>2019-07-28T05:23:48+00:00</lastmod>
+    <loc>https://karthikmenon.com/</loc>
+    <lastmod>2020-07-25T05:23:48+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://karthikmenon.me/projects</loc>
-    <lastmod>2019-07-28T05:23:48+00:00</lastmod>
+    <loc>https://karthikmenon.com/projects</loc>
+    <lastmod>2020-07-25T05:23:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
