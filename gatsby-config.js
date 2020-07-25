@@ -37,7 +37,7 @@ module.exports = {
         background_color: "#1f2b3b",
         theme_color: "#1f2b3b",
         display: "standalone",
-        icon: "images/icon.png", 
+        icon: "src/images/icon.png", 
         crossOrigin: `use-credentials`,
       },
     },
