@@ -20,9 +20,7 @@ export default function About() {
         Always free to discuss website designs, email templating and a lot more
         over <span className="highlight">coffee</span>. <br />
         Looking to freelance your project ?{" "}
-        <a href="mailto:menonk484@gmail.com" target="_blank">
-          Hit Me Up
-        </a>
+        <a href="mailto:menonk484@gmail.com">Hit Me Up</a>
       </div>
       <div className="h3 mx-3 code mt-2 mb-3">{"</div>"}</div>
     </>

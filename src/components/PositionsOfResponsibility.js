@@ -41,6 +41,14 @@ export default function PositionsOfResponsibility() {
                 rel="noreferrer"
               >
                 Check out the website here
+              </a>{" "}
+              <br />
+              <a
+                href="https://blog.techkshetra.tech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check out the official blog here
               </a>
             </div>
           </div>
@@ -63,8 +71,15 @@ export default function PositionsOfResponsibility() {
           <div className="text-muted mx-1 my-2 h5 text-justify info">
             Assistant Designer - 2019, Chief Designer - 2020
             <div className="mx-3 my-2">
-              Idanazhikal is the college magazine of RSET for the academic year
-              2018-2019.
+              '{" "}
+              <a
+                href="https://www.rajagiritech.ac.in/Home/Magazine/pdf/cm2019.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Idanazhikal&nbsp;
+              </a>
+              ' is the college magazine of RSET for the academic year 2018-2019.
             </div>
           </div>
         </div>

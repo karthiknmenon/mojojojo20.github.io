@@ -6,14 +6,14 @@ export default function Publications() {
       <div className="h3 code mx-3 mt-2 mb-3">{'<div id="Publications">'}</div>
       <div className="text-muted mx-5 my-4 h5 text-justify info">
         <p>
-          Menon, K.N., Thomas, K., Thomas, J., Titus, D.J., James, D. : Quality
-          Assurance in Cold Chain Networks using Blockchain and IoT - In.
-          Springer Advances in Intelligent Systems and Computing (AISC) Series
-          (2020){" "}
+          Menon, K.N., Thomas, K., Thomas, J., Titus, D.J., James, D. ColdBlocks
+          : Quality Assurance in Cold Chain Networks using Blockchain and IoT -
+          In. Springer Advances in Intelligent Systems and Computing (AISC)
+          Series (2020){" "}
         </p>{" "}
         <br />
         <a
-          href="https://drive.google.com/file/d/1WeZkpYL0oLjkVy-7ngzWdk9TKIjB5dkZ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JFWtYqK3amPo-tqw14eI0JhF6rnGNP63/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
