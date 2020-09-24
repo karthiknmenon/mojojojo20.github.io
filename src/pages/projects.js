@@ -13,7 +13,7 @@ function Projects({ data }) {
       <Appbar />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Contact | Karthik | Front End Developer | UI/UX | Rajagiri College</title>
+        <title>Projects | Karthik Menon | Software Engineer | BigBinary | Rajagiri</title>
       </Helmet>
       <div className="row">
         {projectList.map(({ node }) => {
