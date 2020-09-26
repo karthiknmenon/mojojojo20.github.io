@@ -16,7 +16,10 @@ function ErrorPage() {
         <div className="text-muted my-5 h5 text-center info">
           You've wandered into space.
           <Link to="/">
-            Take Me Back. <span role="img">💨</span>
+            Take Me Back.{" "}
+            <span role="img" aria-label="404-emoji">
+              💨
+            </span>
           </Link>
         </div>
       </div>

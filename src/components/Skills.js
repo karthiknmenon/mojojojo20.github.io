@@ -32,6 +32,8 @@ export default function Skills() {
                   </div>
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
@@ -48,6 +50,8 @@ export default function Skills() {
                   </div>
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
