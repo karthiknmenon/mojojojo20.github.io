@@ -23,7 +23,10 @@ export default function WorkExperience() {
         {'<div id="Work-Experience">'}
       </div>
       {workList.map(({ node }) => (
-        <div className="mx-5 my-2 h3 text-justify info">
+        <div
+          key={node.position.replace(" ", "-")}
+          className="mx-5 my-2 h3 text-justify info"
+        >
           {node.company}
           <div className="text-muted mx-5 my-2 h4 text-justify info">
             {node.position}
