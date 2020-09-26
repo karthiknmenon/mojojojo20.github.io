@@ -23,7 +23,7 @@ export default function Skills() {
           {skillsList.map(({ node }, index) => {
             if (index < 3) {
               return (
-                <div className="card">
+                <div key={node.title + "_" + Math.random()} className="card">
                   <div className="card-body">
                     <h5 className="card-title">{node.title}</h5>
                     {node.skills.map(element => (
@@ -41,7 +41,7 @@ export default function Skills() {
           {skillsList.map(({ node }, index) => {
             if (index >= 3) {
               return (
-                <div className="card">
+                <div key={node.title + "_" + Math.random()} className="card">
                   <div className="card-body">
                     <h5 className="card-title">{node.title}</h5>
                     {node.skills.map(element => (
