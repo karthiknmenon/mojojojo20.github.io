@@ -1,43 +1,39 @@
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 
-export default function Education() {
+const Education = () => {
+  const query = useStaticQuery(graphql`
+    {
+      allEducationYaml {
+        edges {
+          node {
+            school
+            degree
+            year
+            grade
+          }
+        }
+      }
+    }
+  `);
+  const educationList = query.allEducationYaml.edges;
   return (
     <>
       <div className="h3 mx-3 code mt-2 mb-3">{'<div id="Education">'}</div>
-      <div className="mx-5 my-2 h3 text-justify info">
-        Rajagiri School of Engineering & Technology, Kakkanad
-        <div className="text-muted mx-3 my-2 h4 text-justify info">
-          Bachelor's of Technology with Honours (Information Technology)
-          <div className="mx-4">
-            2016-2020
-            <br />
-            9.06/10.00
+      {educationList.map(({ node }) => {
+        return (
+          <div className="mx-5 my-2 h3 text-justify info">
+            {node.school}
+            <div className="text-muted mx-1 my-2 h4 text-justify info">
+              {node.degree}
+              <div className="mx-4 h4">{node.grade}</div>
+              <div className="mx-4 h6">{node.year}</div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="mx-5 my-2 h3 text-justify info">
-        Navrachana International School Vadodara
-        <div className="text-muted mx-3 my-2 h4 text-justify info">
-          CBSE Grade 12
-          <div className="mx-4">
-            2015-2016
-            <br />
-            91%
-          </div>
-        </div>
-      </div>
-      <div className="mx-5 my-2 h3 text-justify info">
-        Navrachana International School Vadodara
-        <div className="text-muted mx-3 my-2 h4 text-justify info">
-          CBSE Grade 10
-          <div className="mx-4">
-            2013-2014
-            <br />
-            9.4/10.00
-          </div>
-        </div>
-      </div>
+        );
+      })}
       <div className="h3 mx-3 code mt-2 mb-3">{"</div>"}</div>
     </>
   );
-}
+};
+export default Education;
