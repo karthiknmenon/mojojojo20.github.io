@@ -29,9 +29,9 @@ export default function PositionsOfResponsibility() {
             key={node.name.replace(" ", "-")}
             className="mx-5 my-4 h3 text-justify info"
           >
-            <div className="mx-1 my-2 h4 text-justify info">
+            <div className="mx-1 my-2 h4 text-justify">
               {node.name}
-              <div className="text-muted mx-1 my-2 h5 text-justify info">
+              <div className="text-muted mx-1 my-2 h5 text-justify">
                 {node.position}
                 <div className="mx-3 my-2">
                   {node.description} <br />
