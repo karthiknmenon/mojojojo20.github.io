@@ -1,31 +1,27 @@
 - title: ColdBlocks
   subtitle: ColdBlocks is a tempearture guided route optimization product that provides Enhanced Quality Assurance to Cold Chain Networks and their customers. ColdBlocks gathers real time data and stores it in a blockchain network. The product was served using a webapp interface built using reactJS and a backend server using nodeJS. VRP was solved using python3 and Google Or-Tools.
-  link : https://github.com/mojojojo20/ColdBlocks
+  link: https://github.com/karthiknmenon/ColdBlocks
 
 - title: ProvChain
   subtitle: ProvChain is a distributed provenacne checker built using Hyperledger Composer/Fabric, nodeJS and reactJS.
-  link : https://github.com/mojojojo20/ProvChain
+  link: https://github.com/karthiknmenon/ProvChain
 
 - title: Expenser
   subtitle: Expenser is a daily expense tracker built using tailwind which is integrated to google sheets for weekly and daily updates using app-script. The project uses firebase for real time DB.
-  link : https://github.com/mojojojo20/Expenser
-  
+  link: https://github.com/karthiknmenon/Expenser
+
 - title: R2G
   subtitle: Review to Government is a Scraping cum Analyzing project which scrapes reviews from websites and provides analysis to each ministry. The results were graphed using matplotlib.
-  link : https://github.com/mojojojo20/Teacher-Feedback-Analysis
-  
+  link: https://github.com/karthiknmenon/Teacher-Feedback-Analysis
 
 - title: Teacher Feedback Analysis
   subtitle: Implemented sentiment analysis using nltk in python for teacher feedback analysis from RSMS. The results were graphed using matplotlib.
-  link : https://github.com/mojojojo20/Teacher-Feedback-Analysis
+  link: https://github.com/karthiknmenon/Teacher-Feedback-Analysis
 
 - title: Task Manager
   subtitle: Used HTML,SCSS,Jquery to create a to-do task manager. Saved tasks on local storage using JSON objects. Hosted web application on netlify.
-  link : https://tskmanager.netlify.app
-  
+  link: https://tskmanager.netlify.app
 
 - title: Blend*
   subtitle: Blend is an Open Soruce Component Library. Currently in production, blend consists of buttons, avatars, modals, carousel and all that you can think of.
-  link : https://karthikmenon.com
-  
-  
+  link: https://karthikmenon.com

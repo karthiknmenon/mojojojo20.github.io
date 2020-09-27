@@ -113,3 +113,9 @@ a:hover {
     transform: rotate(0.0deg)
   }
 }
+
+
+::selection {
+  color: rgb(201, 199, 199);
+  background: #ff7b00;
+}
