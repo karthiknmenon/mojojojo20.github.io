@@ -11,7 +11,8 @@ function ErrorPage() {
         <title>Karthik Menon | Software Engineer | BigBinary | Rajagiri</title>
       </Helmet>
       <div className="row">
-        <div className="text-muted my-5 h3 text-center w-100">
+        <div className="text-muted my-5 h3 text-center w-100 h-100">
+          Oops. You hit a wrong route. <br />
           You've wandered into space. <br />
           <Link to="/">
             Take Me Back.{" "}
