@@ -22,7 +22,10 @@ const Education = () => {
       <div className="h3 mx-3 code mt-2 mb-3">{'<div id="Education">'}</div>
       {educationList.map(({ node }) => {
         return (
-          <div className="mx-5 my-2 h3 text-justify info">
+          <div
+            key={node.grade.replace(" ", "-")}
+            className="mx-5 my-2 h3 text-justify info"
+          >
             {node.school}
             <div className="text-muted mx-1 my-2 h4 text-justify info">
               {node.degree}

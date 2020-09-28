@@ -11,9 +11,12 @@ export default function info() {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-3" style={{ color: "#FF8A00" }}>
+      <div className="display-4" style={{ color: "#FF8A00" }}>
         <span style={{ color: "white" }}>Hello, I'm</span> <br />
-        Karthik Menon.
+        Karthik Menon.{" "}
+        <span className="wave" role="img" aria-label="karthik says hi">
+          👋
+        </span>
       </div>
       <div className="h3 code mt-4 mb-3"> {"<html>"}</div>
       <div className="h3 code mt-4 mb-3"> {"<head>"}</div>
