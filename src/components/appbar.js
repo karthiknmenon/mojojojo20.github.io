@@ -7,9 +7,9 @@ export default function Appbar() {
         <li className="nav-item mx-4">
           <Link to="/">Home</Link>
         </li>
-        <li className="nav-item mx-4">
+        {/* <li className="nav-item mx-4">
           <Link to="/projects">Projects</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
