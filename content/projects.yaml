@@ -1,6 +1,14 @@
 - title: ColdBlocks
-  subtitle: ColdBlocks is a tempearture guided route optimization product that provides Enhanced Quality Assurance to Cold Chain Networks and their customers. ColdBlocks gathers real time data and stores it in a blockchain network. The product was served using a webapp interface built using reactJS and a backend server using nodeJS. VRP was solved using python3 and Google Or-Tools.
+  subtitle: Cold Chain Logistics company lack the an organised system for Quality Assurance and Tracking which provides real time data availability and end-to-end data transparency. A lack of Quality Assurance during transportation from Customer’s point of view is a major hurdle that engulfs the cold chain network and its absence has largely been ignored by the organizations. The product is made available to users through a PWA made using reactJS.
   link: https://github.com/karthiknmenon/ColdBlocks
+
+- title: Docr
+  subtitle: Docr is an API - Documentation and Playground tool built using gatsby
+  link: https://github.com/karthiknmenon/
+
+- title: Omega
+  subtitle: Omega is a gatsby blog starter built using tailwindCSS.
+  link: https://omega-starter.netlify.app/
 
 - title: ProvChain
   subtitle: ProvChain is a distributed provenacne checker built using Hyperledger Composer/Fabric, nodeJS and reactJS.
@@ -23,5 +31,5 @@
   link: https://tskmanager.netlify.app
 
 - title: Blend*
-  subtitle: Blend is an Open Soruce Component Library. Currently in production, blend consists of buttons, avatars, modals, carousel and all that you can think of.
+  subtitle: Blend is an Open Soruce Component Library. Currently in production, blend consists of buttons, avatars, modals, carousel and all that you can think of. p.s. it has been in dev for a year now xP
   link: https://karthikmenon.com
