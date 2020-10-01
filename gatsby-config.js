@@ -33,7 +33,7 @@ module.exports = {
       options: {
         name: "Karthik Menon",
         short_name: "Karthik Menon",
-        start_url: "https://karthikmenon.me/",
+        start_url: "https://karthikmenon.com/",
         background_color: "#1f2b3b",
         theme_color: "#1f2b3b",
         display: "standalone",
